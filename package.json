@@ -1,0 +1,22 @@
+{
+  "name": "tsredux",
+  "version": "1.0.0",
+  "description": "Example of how to utilize TypeScript typings power on Redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redux",
+    "typescript"
+  ],
+  "author": "Aditya Purwa",
+  "license": "MIT",
+  "devDependencies": {
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "redux": "^4.0.0"
+  }
+}

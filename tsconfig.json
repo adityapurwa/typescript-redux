@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "dist"
+  },
+  "exclude": ["node_modules/**/*"],
+  "include": ["src/**/*"]  
+}
