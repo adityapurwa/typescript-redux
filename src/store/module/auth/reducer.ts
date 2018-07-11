@@ -1,6 +1,7 @@
 import { combineReducers } from "redux";
 import * as Auth from "./types";
 import { AuthStore, UserIdActions, UserNameActions } from "./types";
+import { assertNever } from "../../core";
 
 const token = (
   state: AuthStore["token"] = null,
@@ -26,6 +27,7 @@ const userId = (
     case "auth/flush-token":
       return null;
     default:
+      assertNever(action);
       return state;
   }
 };

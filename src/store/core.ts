@@ -27,3 +27,8 @@ export function createAction<TAction extends Action<TAction["type"]>>(
     type
   });
 }
+
+// Thanks to Matthew DeKrey for pointing this out
+export function assertNever(never: never) {
+  console.error("Never touched");
+}
